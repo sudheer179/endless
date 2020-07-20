@@ -1,0 +1,147 @@
+.app {
+    width: 100%;
+}
+
+.header-container {
+    background-color: #222222;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: #47E4C2;
+    width: 100%;
+    max-width: 1024px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 5px 0px;
+    margin: 0px 10px;
+}
+
+.container {
+    background-image: url("../src/photo-couch-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.body {
+    max-width: 1024px;
+    margin: 75px 10px;
+    color: #fff;
+    bottom: 10px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.body span {
+    display: block;
+}
+
+.sm-heading {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 300;
+}
+
+.body-content {
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+.primary-button {
+    background-color: #47E4C2;
+    border: 1px solid #47E4C2;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 4px 30px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: Lato;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.primary-button:hover {
+    color: #47E4C2;
+    background-color: #222222;
+    cursor: pointer;
+}
+
+.step-container {
+    background-color: #F2F1EF;
+    display: flex;
+    justify-content: center;
+}
+
+.steps {
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.md-heading {
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin: 40px 0px;
+}
+
+.step-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.step-count {
+    display: inline-flex;
+    flex-grow: 0;
+    font-size: 48px;
+    border-bottom: 2px solid #47E4C2;
+    margin-bottom: 20px;
+}
+
+.step-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.step p {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .step-list {
+        flex-direction: column;
+    }
+
+    header {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .body {
+        text-align: center;
+    }
+}
